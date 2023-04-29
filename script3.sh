@@ -3,4 +3,4 @@
 
 #!/bin/bash
 
-salt Minion1 file.sed /etc/nginx/ files/usr/share/nginx/html/index,html  '*'  'Hello Greenatom'
+salt Minion1 file.sed /etc/nginx/files/usr/share/nginx/html/index,html  '*'  'Hello Greenatom'
